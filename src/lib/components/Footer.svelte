@@ -39,6 +39,24 @@
         </a>
       </div>
     </div>
+    <div class="grid grid-cols-2 gap-8 my-4">
+      <div>
+        <span class="font-semibold">VIC HEAD OFFICE</span><br />
+        <span>1800 333 539</span>
+      </div>
+      <div>
+        <span class="font-semibold">NSW</span><br />
+        <span>1800 333 539</span>
+      </div>
+      <div>
+        <span class="font-semibold">QLD</span><br />
+        <span>1800 333 539</span>
+      </div>
+      <div>
+        <span class="font-semibold">WA</span><br />
+        <span>1800 333 539</span>
+      </div>
+    </div>
     <div class="my-4">
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
     </div>
