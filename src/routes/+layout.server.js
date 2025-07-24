@@ -6,6 +6,7 @@ export function load() {
       {text: 'Services', url: 'https://www.feeldx.com/services'},
       {text: 'Technology', url: 'https://www.feeldx.com/technology'},
       {text: 'Our Work', url: 'https://www.feeldx.com/our-work'},
+      {text: 'About Us', url: 'https://www.feeldx.com/About-us'},
       {text: 'Contact Us', url: 'https://www.feeldx.com/contact-us'},
     ]
   }

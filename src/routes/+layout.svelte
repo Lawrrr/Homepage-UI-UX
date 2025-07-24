@@ -1,7 +1,8 @@
 <script>
   import "../app.css";
   import DrawerIcon from "$lib/components/DrawerIcon.svelte";
-  import FeelDx from "$lib/static/FeelDX.svelte";
+  import FeelDx from "$lib/static/images/FeelDX.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 
   let { data, children } = $props();
   const { menu } = data;
@@ -57,3 +58,5 @@
     </div>
   </div>
 </div>
+
+<Footer {menu} />
