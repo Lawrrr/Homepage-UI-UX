@@ -25,7 +25,10 @@
             {#if menu}
               {#each menu as item}
                 <li>
-                  <a class="font-semibold tracking-wide" href={item.url}>
+                  <a
+                    class="font-semibold tracking-wide uppercase"
+                    href={item.url}
+                  >
                     {item.text}
                   </a>
                 </li>
@@ -48,7 +51,10 @@
         {#if menu}
           {#each menu as item}
             <li class="py-2">
-              <a class="text-xl font-bold tracking-wide" href={item.url}>
+              <a
+                class="text-xl font-bold tracking-wide uppercase"
+                href={item.url}
+              >
                 {item.text}
               </a>
             </li>
